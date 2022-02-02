@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>30DaysOfScript: Adding Scripts</title>
+
+        <script>
+            // an INTERNAL SCRIPT.
+            // is contained within <script> tags
+            console.log('an INTERNAL(HEAD) script') // <–– will log to console
+            // can be in HEAD or BODY, but BODY is preferred.
+        </script>
+    </head>
+
+
+    <body>
+        <!-- an INLINE SCRIPT -->
+        <!-- NOT in <script> tags -->
+        <button onclick="alert('INLINE script!')">CLICK ME (INLINE; body)</button>
+
+
+        <button onclick="alert('INTERNAL script!');">CLICK (INTERNAL; body)</button>
+        <!-- an example of an INTERNAL SCRIPT in the body. -->
+        <!-- of which is contained within <script> -->
+        <script>
+            console.log('an INTERNAL(BODY) script')
+        </script>
+
+        <!-- an EXTERNAL SCRIPT -->
+    </body>
+
+</html>
